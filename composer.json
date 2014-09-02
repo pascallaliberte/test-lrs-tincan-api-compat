@@ -3,6 +3,7 @@
         "php": ">=5.3.0",
         "symfony/yaml": "2.6.*@dev",
         "rusticisoftware/tincan": "~0.0",
-        "raveren/kint": "0.9.*@dev"
+        "raveren/kint": "0.9.*@dev",
+        "vlucas/phpdotenv": "~1.0.5"
     }
 }
