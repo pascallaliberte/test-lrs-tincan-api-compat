@@ -1,0 +1,169 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ca7336612c28d69e43f7a3edb067ec7d",
+    "packages": [
+        {
+            "name": "raveren/kint",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raveren/kint.git",
+                "reference": "d4780fc6e974f00c427c1fd2492dca4dcd636704"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raveren/kint/zipball/d4780fc6e974f00c427c1fd2492dca4dcd636704",
+                "reference": "d4780fc6e974f00c427c1fd2492dca4dcd636704",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Kint.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rokas Šleinius",
+                    "homepage": "https://github.com/raveren"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/raveren/kint/contributors"
+                }
+            ],
+            "description": "Kint - debugging helper for PHP developers",
+            "homepage": "https://github.com/raveren/kint",
+            "keywords": [
+                "debug",
+                "kint",
+                "php"
+            ],
+            "time": "2014-08-11 11:44:51"
+        },
+        {
+            "name": "rusticisoftware/tincan",
+            "version": "0.11.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RusticiSoftware/TinCanPHP.git",
+                "reference": "0a2b5e7490ab4d3aff8778d8a09a350c8010efce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RusticiSoftware/TinCanPHP/zipball/0a2b5e7490ab4d3aff8778d8a09a350c8010efce",
+                "reference": "0a2b5e7490ab4d3aff8778d8a09a350c8010efce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TinCan\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Brian J. Miller",
+                    "email": "brian.miller@tincanapi.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tin Can API Library",
+            "homepage": "http://rusticisoftware.github.io/TinCanPHP/",
+            "keywords": [
+                "Experience API",
+                "e-learning",
+                "scorm",
+                "tin can",
+                "tincan",
+                "xAPI"
+            ],
+            "time": "2014-07-23 15:03:13"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "b5922e0afc21531b84ddef806e66ba4f84f770b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/b5922e0afc21531b84ddef806e66ba4f84f770b0",
+                "reference": "b5922e0afc21531b84ddef806e66ba4f84f770b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-08-31 03:28:38"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "symfony/yaml": 20,
+        "raveren/kint": 20
+    },
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

@@ -36,7 +36,7 @@ vagrantfile-local:
         synced_folder:
             bTHailQD5NpL:
                 source: ./
-                target: /var/www
+                target: /var/www/html
                 sync_type: default
                 rsync:
                     args:

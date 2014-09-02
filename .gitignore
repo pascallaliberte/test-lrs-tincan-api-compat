@@ -1,0 +1,12 @@
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Vagrant
+bin
+.vagrant
