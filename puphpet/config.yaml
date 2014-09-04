@@ -81,7 +81,7 @@ apache:
     vhosts:
         CV6GwsSKilRU:
             servername: local.dev
-            docroot: /var/www
+            docroot: /var/www/html
             port: '80'
             setenv:
                 - 'APP_ENV dev'
