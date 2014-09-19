@@ -1,0 +1,9 @@
+CompletionDate:
+  -
+    agent_mbox: 'email@example.com'
+    activity_id: 'https://lms.example.com/course/name'
+    expected_statement_id:
+  -
+    agent_mbox: 'email2@example.com'
+    activity_id: 'https://lms.example.com/course/name'
+    expected_statement_id: 'statement-id-string'

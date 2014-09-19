@@ -2,19 +2,15 @@
 
 # load dependencies
 
-  require_once __DIR__ . '../vendor' . '/autoload.php';
+  require_once __DIR__ . '/../vendor' . '/autoload.php';
 
   use Symfony\Component\Yaml\Yaml;
   use Symfony\Component\Yaml\Parser;
 
   $yaml = new Parser();
 
-  Dotenv::load(__DIR__);
+  Dotenv::load(__DIR__ . '/../');
   Dotenv::required(array('LRS_ENDPOINT', 'LRS_USERNAME', 'LRS_PASSWORD'));
-
-# load the activity => agent pairs to test against
-
-  $tests = $yaml->parse(file_get_contents('tests.yml'));
 
 # prepare connections to the LRS
 
