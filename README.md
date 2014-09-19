@@ -30,4 +30,4 @@ Edit the `samples/CompletionDate.yml` file with the `agent_mbox`, `activity_id` 
 
 ## Run the tests
 
-    phpunit
+    vendor/bin/phpunit
