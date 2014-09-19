@@ -1,6 +1,6 @@
 # Sample data
-tests/*.yml
-!tests/*.example.yml
+samples/*.yml
+!samples/*.example.yml
 
 # Dotenv
 .env
