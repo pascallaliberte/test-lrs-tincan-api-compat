@@ -2,8 +2,7 @@
 
 # load dependencies
 
-  require_once __DIR__ . '/vendor' . '/autoload.php';
-  require_once __DIR__ . '/lib' . '/callapi.php';
+  require_once __DIR__ . '../vendor' . '/autoload.php';
 
   use Symfony\Component\Yaml\Yaml;
   use Symfony\Component\Yaml\Parser;
@@ -23,7 +22,7 @@
   $lrs_username = getenv('LRS_USERNAME');
   $lrs_password = getenv('LRS_PASSWORD');
 
-  # if LRS settings aren't set, return the default grassblade shortcode
+  # if LRS settings aren't set, exit
   if (!$lrs_endpoint || !$lrs_username || !$lrs_password) {
     die('LRS not configured');
   }
@@ -34,13 +33,5 @@
       $lrs_username,
       $lrs_password
   );
-
-# foreach test
-
-  # get data from the completionreport API
-
-  # get first 'attempted' statement using the TinCan API
-
-  # get first 'completed' statement using the TinCan API
 
 ?>
