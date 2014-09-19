@@ -17,7 +17,7 @@ class CompletionDateTest extends PHPUnit_Framework_TestCase
       'activity' => new TinCan\Activity(['id' => $activity_id]),
       'limit' => 1,
       'ascending' => 'true',
-      'by_timestampe' => 'true',
+      'by_timestamp' => 'true',
       'include_agent_overrides' => 'true',
       'related_agents' => 'true',
     ]);
@@ -29,7 +29,7 @@ class CompletionDateTest extends PHPUnit_Framework_TestCase
     if ( is_null( $expected_statement_id ) ) {
       $this->assertCount(0, $statements);
     } else {
-      $this->assertNotCount(0, $statements);
+      $this->assertNotCount(0, $statements, 'There are zero statements returned');
       $this->assertExists($statements[0]);
       $this->assertInstanceOf('Tincan\Statement', $statements[0]);
       $this->assertTrue($statements[0]->hasID());
@@ -40,7 +40,7 @@ class CompletionDateTest extends PHPUnit_Framework_TestCase
   public function completionDateProvider()
   {
     global $yaml;
-    $samples = $yaml->parse(file_get_contents(__DIR__ . '/' . 'CompletionDate.yml'));
+    $samples = $yaml->parse(file_get_contents(__DIR__ . '/' . '../samples/' . 'CompletionDate.yml'));
     return $samples['CompletionDate'];
   }
 }
